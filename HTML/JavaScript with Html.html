@@ -56,4 +56,105 @@
 
 //
 
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+
+    <img src="C:\Users\user\OneDrive\Pictures\Saved Pictures\crime and punishment.jpg"
+    width="200"
+    height="200"
+    id="image"
+    onclick="demo()"
+    >
+  </body>
+  <script>
+    function demo(){
+      var ele = document.getElementById("image")
+      ele.src = "https://www.qries.com/images/banner_logo.png";
+    }
+  </script>
+</html>
+
+//
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+    <p id="para" style="color: red" onclick="demo()">
+      This is red paragraph
+    </p>
+  </body>
+  <script>
+    function demo(){
+      var ele = document.getElementById("para")
+      ele.style.color = "blue";
+      ele.innerHTML = "This is a blue paragraph";
+    }
+  </script>
+</html>
+
+//
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+    <p id="para" style="color: red" onclick="demo()">
+      This is red paragraph
+    </p>
+    <p id="ypara" style="color: yellow" onclick="ydemo()">
+       This is yellow paragraph
+    </p>
+  </body>
+  <script>
+    function demo(){
+      var ele = document.getElementById("para")
+      ele.style.color = "blue";
+      ele.innerHTML = "This is a blue paragraph";
+    }
+    function ydemo(){
+      var ele = document.getElementById("ypara")
+      ele.style.color = "black";
+      ele.innerHTML = "This is a black paragraph";
+    }
+  </script>
+</html>
+
+\\
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+    <div id="main">
+      <button onclick="demo()">click here</button>
+    </div>
+  </body>
+  <script>
+    function demo(){
+      var paragraph = document.createElement("p")
+      var text = document.createTextNode("This is a paragraph");
+      paragraph.appendChild(text);
+      var div = document.getElementById('main');
+      div.appendChild(paragraph);
+    }
+  </script>
+</html>
+
+\\
+
 
