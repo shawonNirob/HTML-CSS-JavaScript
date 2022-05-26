@@ -157,4 +157,210 @@
 
 \\
 
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+    <div id="main">
+      <button onclick="demo()">click here</button>
+    </div>
+  </body>
+  <script>
+    function demo(){
+      var button= document.createElement("button")
+      button.innerHTML = "new button";
+
+      var div = document.getElementById('main');
+      div.appendChild(button);
+    }
+  </script>
+</html><!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+    <div id="main">
+      <button onclick="demo()">click here</button>
+    </div>
+  </body>
+  <script>
+    function demo(){
+      var paragraph = document.createElement("p")
+        paragraph.innerHTML = "new paragraph";
+      var div = document.getElementById('main');
+      div.appendChild(paragraph);
+    }
+  </script>
+</html>
+
+\\
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+    <div id="main">
+      <button onclick="demo()">click here</button>
+      <p id="para">My world</p>
+    </div>
+  </body>
+  <script>
+    function demo(){
+      var h = document.createElement("h1")
+        h.innerHTML = "insertBefore";
+
+      var div = document.getElementById('main');
+      var paragraph = document.getElementById('para');
+      div.insertBefore(h, paragraph);
+
+
+    }
+  </script>
+</html>
+
+\\
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+        .css{
+          color: red;
+          font-size: 40px;
+        }
+      </style>
+  </head>
+
+  <body>
+      <button onclick="demo()">click here</button>
+      <p id="para">My world</p>
+  </body>
+
+  <script>
+    function demo(){
+      var paragraph = document.getElementById("para");
+      var attribute = document.createAttribute("class");
+      attribute.value = "css";
+
+      paragraph.setAttributeNode(attribute);
+    }
+  </script>
+</html>
+
+\\
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+    <div id="main">
+      <button onclick="demo()">click here</button>
+    </div>
+  </body>
+  <script>
+    function demo(){
+      var paragraph = document.createElement("p")
+        paragraph.innerHTML = "new paragraph";
+      var div = document.getElementById('main');
+      div.appendChild(paragraph);
+    }
+  </script>
+</html>
+
+\\
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Alert</title>
+  </head>
+  <body>
+    <div id="main">
+      <button onclick="demo()">click here</button>
+      <p id="para">My world</p>
+    </div>
+  </body>
+  <script>
+    function demo(){
+      var h = document.createElement("h1")
+        h.innerHTML = "insertBefore";
+
+      var div = document.getElementById('main');
+      var paragraph = document.getElementById('para');
+      div.insertBefore(h, paragraph);
+
+
+    }
+  </script>
+</html>
+
+\\
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+        .css{
+          color: red;
+          font-size: 40px;
+        }
+      </style>
+  </head>
+
+  <body>
+      <button onclick="demo()">click here</button>
+      <p id="para">My world</p>
+  </body>
+
+  <script>
+    function demo(){
+      var paragraph = document.getElementById("para");
+      var attribute = document.createAttribute("class");
+      attribute.value = "css";
+
+      paragraph.setAttributeNode(attribute);
+    }
+  </script>
+</html>
+
+\\
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+        .css{
+          color: red;
+          font-size: 200px;
+        }
+      </style>
+  </head>
+
+  <body>
+      <button onclick="demo()">click here</button>
+      <p id="para">My world</p>
+  </body>
+
+  <script>
+    function demo(){
+      var paragraph = document.getElementById("para");
+      paragraph.remove();
+    }
+  </script>
+</html>
+
+\\
 
